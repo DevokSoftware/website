@@ -7,7 +7,6 @@ import {
   VStack,
   Code,
   Grid,
-  theme,
   SimpleGrid,
   Card,
   CardHeader,
@@ -15,54 +14,17 @@ import {
   CardBody,
   CardFooter,
   Button,
+  theme,
+  ColorModeScript,
 } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
 import { Logo } from "./Logo";
+import { Homepage } from "./pages/Homepage";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <Box p={3} textAlign="center" fontSize="xl">
-      <SimpleGrid spacing={4} templateColumns="repeat(3, minmax(0px, 1fr))">
-        <Card>
-          <CardHeader>
-            <Heading size="md"> Customer dashboard</Heading>
-          </CardHeader>
-          <CardBody>
-            <Text>
-              View a summary of all your customers over the last month.
-            </Text>
-          </CardBody>
-          <CardFooter>
-            <Button>View here</Button>
-          </CardFooter>
-        </Card>
-        <Card>
-          <CardHeader>
-            <Heading size="md"> Customer dashboard</Heading>
-          </CardHeader>
-          <CardBody>
-            <Text>
-              View a summary of all your customers over the last month.
-            </Text>
-          </CardBody>
-          <CardFooter>
-            <Button>View here</Button>
-          </CardFooter>
-        </Card>
-        <Card>
-          <CardHeader>
-            <Heading size="md"> Customer dashboard</Heading>
-          </CardHeader>
-          <CardBody>
-            <Text>
-              View a summary of all your customers over the last month.
-            </Text>
-          </CardBody>
-          <CardFooter>
-            <Button>View here</Button>
-          </CardFooter>
-        </Card>
-      </SimpleGrid>
+    <Box>
+      <Homepage />
     </Box>
   </ChakraProvider>
 );
