@@ -1,33 +1,32 @@
-import * as React from "react";
 import {
-  ChakraProvider,
   Box,
   Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-  SimpleGrid,
   Card,
   CardHeader,
   Heading,
   CardBody,
   CardFooter,
-  Button,
-  Container,
   Image,
   Flex,
   Avatar,
-  IconButton,
 } from "@chakra-ui/react";
 
 export const BlogCard = () => (
-  <Card maxW="md" boxShadow="2xl" rounded="2xl">
+  <Card
+    maxW="md"
+    boxShadow="md"
+    rounded="2xl"
+    _hover={{
+      boxShadow: "2xl",
+      position: "relative",
+      top: "-10px",
+      transition: "top ease 0.5s",
+    }}
+  >
     <CardHeader>
       <Image
         objectFit="cover"
-        src="https://images.unsplash.com/photo-1531403009284-440f080d1e12?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80"
+        src="https://drexel.edu/~/media/Images/cci/Stories/Remote%20Software%20Engineering-Page.ashx?h=1000&w=1500&hash=6BB2151F2495C52A21F368DADF9D7D9604BC1936"
         alt="Chakra UI"
       />
     </CardHeader>
@@ -41,10 +40,12 @@ export const BlogCard = () => (
 
     <CardFooter>
       <Flex flex="1" gap="4" alignItems="center" flexWrap="wrap">
-        <Avatar name="Segun Adebayo" src="https://bit.ly/sage-adebayo" />
-
+        <Avatar
+          name="Leonel Gonçalves"
+          src="https://web-jeromejose.github.io/images/anthony.jpg"
+        />
         <Box>
-          <Heading size="sm">Segun Adebayo</Heading>
+          <Heading size="sm">Leonel Gonçalves</Heading>
           <Text>Creator, Chakra UI</Text>
         </Box>
       </Flex>

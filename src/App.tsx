@@ -1,30 +1,11 @@
-import * as React from "react";
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  SimpleGrid,
-  Card,
-  CardHeader,
-  Heading,
-  CardBody,
-  CardFooter,
-  Button,
-  theme,
-  ColorModeScript,
-} from "@chakra-ui/react";
-import { ColorModeSwitcher } from "./ColorModeSwitcher";
-import { Logo } from "./Logo";
+import { ChakraProvider, Box } from "@chakra-ui/react";
+import theme from "./assets/theme";
 import { Homepage } from "./pages/Homepage";
+import NavigationBar from "./pages/NavigationBar";
 
 export const App = () => (
   <ChakraProvider theme={theme}>
-    <Box>
-      <Homepage />
-    </Box>
+    <NavigationBar />
+    <Homepage />
   </ChakraProvider>
 );

@@ -1,26 +1,9 @@
-import * as React from "react";
-import {
-  ChakraProvider,
-  Box,
-  Text,
-  Link,
-  VStack,
-  Code,
-  Grid,
-  theme,
-  SimpleGrid,
-  Card,
-  CardHeader,
-  Heading,
-  CardBody,
-  CardFooter,
-  Button,
-} from "@chakra-ui/react";
+import { Box, Text } from "@chakra-ui/react";
 import { BlogGrid } from "../components/BlogGrid";
 
 export const Blog = () => (
   <>
-    <Box p={3} textAlign="center">
+    <Box mt={10} textAlign="center">
       <Text as="b" fontSize="xl">
         Welcome to my Blog 👋
       </Text>
@@ -28,7 +11,8 @@ export const Blog = () => (
         Here you can find some posts about what I'm doing and working on. Have a
         good time!
       </Text>
-      <div style={{ marginTop: "100px" }} />
+    </Box>
+    <Box mt={50}>
       <BlogGrid />
     </Box>
   </>
