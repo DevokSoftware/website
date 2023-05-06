@@ -1,5 +1,6 @@
 import { Box, Text } from "@chakra-ui/react";
 import { BlogGrid } from "../components/BlogGrid";
+import { Link } from "react-router-dom";
 
 export const Blog = () => (
   <>

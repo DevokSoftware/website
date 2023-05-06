@@ -15,9 +15,13 @@ import {
   Icon,
 } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "../ColorModeSwitcher";
-const Links = ["Home", "Blog", "Projects"];
+const Links = [
+  { label: "Home", to: "home" },
+  { label: "Blog", to: "blog" },
+  { label: "Projects", to: "projects" },
+];
 
-const NavLink = ({ children }: { children: ReactNode }) => (
+const NavLink = ({ link }: { link: { label: string; to: string } }) => (
   <Link
     px={2}
     py={1}
@@ -26,9 +30,9 @@ const NavLink = ({ children }: { children: ReactNode }) => (
       textDecoration: "none",
       bg: useColorModeValue("gray.200", "gray.700"),
     }}
-    href={"#"}
+    href={"/" + link.to}
   >
-    {children}
+    {link.label}
   </Link>
 );
 
@@ -53,7 +57,7 @@ export default function NavigationBar() {
             display={{ base: "none", md: "flex" }}
           >
             {Links.map((link) => (
-              <NavLink key={link}>{link}</NavLink>
+              <NavLink key={link.label} link={link} />
             ))}
           </HStack>
           <Flex alignItems={"center"}>
@@ -75,7 +79,7 @@ export default function NavigationBar() {
           </Flex>
         </Flex>
 
-        {isOpen ? (
+        {/* {isOpen ? (
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
               {Links.map((link) => (
@@ -83,7 +87,7 @@ export default function NavigationBar() {
               ))}
             </Stack>
           </Box>
-        ) : null}
+        ) : null} */}
       </Box>
     </>
   );
