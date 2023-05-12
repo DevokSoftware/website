@@ -1,0 +1,26 @@
+[
+  {
+    "id": "chatgpt-whats-next",
+    "title": "ChatGPT. What's Next?",
+    "imageUrl": "https://erepublic.brightspotcdn.com/dims4/default/7bfa90b/2147483647/strip/false/crop/1000x667+0+0/resize/1000x667!/quality/90/?url=http%3A%2F%2Ferepublic-brightspot.s3.amazonaws.com%2F61%2Faa%2F78f8f1814f17b74aa145b2de8da9%2Fchatgpt.jpg",
+    "summary": "We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes.",
+    "date": "25/04/2023",
+    "content": "We’ve trained a model called ChatGPT which interacts in a conversational way. The dialogue format makes it possible for ChatGPT to answer followup questions, admit its mistakes."
+  },
+  {
+    "id": "home-assistant",
+    "title": "Home Assistant",
+    "imageUrl": "https://img.freepik.com/premium-photo/smart-home-interface-with-augmented-realty-iot-object-interior-design_756748-3169.jpg",
+    "summary": "Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server..",
+    "date": "03/01/2023",
+    "content": "Open source home automation that puts local control and privacy first. Powered by a worldwide community of tinkerers and DIY enthusiasts. Perfect to run on a Raspberry Pi or a local server.."
+  },
+  {
+    "id": "first-post",
+    "title": "First Post",
+    "imageUrl": "https://drexel.edu/~/media/Images/cci/Stories/Remote%20Software%20Engineering-Page.ashx?h=1000&w=1500&hash=6BB2151F2495C52A21F368DADF9D7D9604BC1936",
+    "summary": "With Chakra UI, I wanted to sync the speed of development with the speed of design. I wanted the developer to be just as excited as the designer to create a screen.",
+    "date": "19/10/2022",
+    "content": "With Chakra UI, I wanted to sync the speed of development with the speed of design. I wanted the developer to be just as excited as the designer to create a screen."
+  }
+]

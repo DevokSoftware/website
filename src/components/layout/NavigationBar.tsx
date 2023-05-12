@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import {
   Box,
   Flex,
@@ -11,10 +10,10 @@ import {
   MenuButton,
   useDisclosure,
   useColorModeValue,
-  Stack,
   Icon,
+  Stack,
 } from "@chakra-ui/react";
-import { ColorModeSwitcher } from "../ColorModeSwitcher";
+import { ColorModeSwitcher } from "./ColorModeSwitcher";
 const Links = [
   { label: "Home", to: "home" },
   { label: "Blog", to: "blog" },
@@ -78,16 +77,6 @@ export default function NavigationBar() {
             </Menu>
           </Flex>
         </Flex>
-
-        {/* {isOpen ? (
-          <Box pb={4} display={{ md: "none" }}>
-            <Stack as={"nav"} spacing={4}>
-              {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
-              ))}
-            </Stack>
-          </Box>
-        ) : null} */}
       </Box>
     </>
   );
