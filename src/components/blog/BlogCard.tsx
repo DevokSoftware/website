@@ -24,7 +24,7 @@ export const BlogCard = ({ blog }: BlogCardProps): JSX.Element => {
     <Link to="test">
       <Card
         maxW="md"
-        boxShadow="md"
+        boxShadow="xl"
         rounded="2xl"
         _hover={{
           boxShadow: "2xl",

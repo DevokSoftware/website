@@ -7,7 +7,7 @@ export const Blog = () => (
       <Text as="b" fontSize="xl">
         Welcome to my Blog 👋
       </Text>
-      <Text fontSize="md">
+      <Text mt={5} fontSize="md">
         Here you can find some posts about what I'm doing and working on. Have a
         good time!
       </Text>
