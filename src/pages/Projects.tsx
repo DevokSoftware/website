@@ -1,20 +1,31 @@
-import { Box, Text } from "@chakra-ui/react";
+import { Box, Center, Text } from "@chakra-ui/react";
 import { ProjectGrid } from "../components/project/ProjectGrid";
 
 export const Projects = () => (
   <>
-    <Box mt={10} textAlign="center">
-      <Text as="b" fontSize="xl">
+    <Center>
+      <Box mt={5} w="5xl">
+        {/* <Text as="b" fontSize="xl">
         Welcome to my Projects 👋
-      </Text>
-      <Text mt={5} fontSize="md">
-        I'm an full-stack developer and all coding projects are built from the
-        ground up, from planning and designing all the way to solving real-life
-        problems with code.
-      </Text>
-    </Box>
-
-    <Box mt={50}>
+      </Text> */}
+        <Text textAlign="center" mt={5} fontSize="md">
+          I build things in my free time.
+        </Text>
+        <Text textAlign="center" fontSize="md">
+          Sometimes I only create the GitHub repository for a random idea and
+          then I'll never go back there, but at other times I spend so much time
+          on them that my phone keeps asking me why the screen time is being
+          reduced so drastically.
+        </Text>
+        <br />
+        <Center>
+          <Text as="b" textAlign="center" fontSize="md">
+            Here are some of those projects.
+          </Text>
+        </Center>
+      </Box>
+    </Center>
+    <Box mt={5}>
       <ProjectGrid />
     </Box>
   </>

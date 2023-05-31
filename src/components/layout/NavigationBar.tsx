@@ -11,11 +11,10 @@ import {
   useDisclosure,
   useColorModeValue,
   Icon,
-  Stack,
 } from "@chakra-ui/react";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
 const Links = [
-  { label: "Home", to: "home" },
+  { label: "Home", to: "" },
   { label: "Blog", to: "blog" },
   { label: "Projects", to: "projects" },
 ];

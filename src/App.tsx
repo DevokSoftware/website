@@ -11,7 +11,7 @@ export const App = () => {
   const routes = [
     {
       path: "/",
-      element: <Blog />,
+      element: <Homepage />,
     },
     {
       path: "/blog",
@@ -23,7 +23,7 @@ export const App = () => {
     },
     {
       path: "*",
-      element: <Blog />,
+      element: <Homepage />,
     },
   ];
   return (

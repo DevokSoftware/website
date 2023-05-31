@@ -1,15 +1,28 @@
 // theme.ts
 
 // 1. import `extendTheme` function
-import { extendTheme, type ThemeConfig } from "@chakra-ui/react";
+import { extendTheme } from "@chakra-ui/react";
 
-// 2. Add your color mode config
-const config: ThemeConfig = {
-  initialColorMode: "light", // 'dark' | 'light'
-  useSystemColorMode: true,
+const theme = {
+  fonts: {
+    // heading: '"Avenir Next", sans-serif',
+    // body: '"Open Sans", sans-serif',
+  },
+  styles: {
+    global: {
+      html: {
+        height: "100%",
+      },
+      body: {
+        height: "100%",
+      },
+    },
+  },
+
+  config: {
+    initialColorMode: "light", // 'dark' | 'light'
+    useSystemColorMode: true,
+  },
 };
 
-// 3. extend the theme
-const theme = extendTheme({ config });
-
-export default theme;
+export default extendTheme(theme);

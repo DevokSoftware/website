@@ -22,7 +22,7 @@ export const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
       <CardHeader padding={0}>
         <Link href={project.url} isExternal>
           <Image
-            h="xs"
+            h="18em"
             roundedTop="2xl"
             objectFit="cover"
             src={"img/projects/" + project.image}
