@@ -11,16 +11,17 @@ const theme = {
   styles: {
     global: {
       html: {
-        height: "100%",
+        height: "100vh",
       },
       body: {
-        height: "100%",
+        height: "100vh",
+        overflow: "hidden",
       },
     },
   },
 
   config: {
-    initialColorMode: "light", // 'dark' | 'light'
+    initialColorMode: "dark", // 'dark' | 'light'
     useSystemColorMode: true,
   },
 };

@@ -1,23 +1,9 @@
 [
   {
-    "id": "Random Generator",
-    "title": "Random Generator",
-    "image": "project1.jpg",
-    "url":"https://github.com/DevokSoftware",
-    "technologies": ["Java", "React", "Spring Boot"] 
-  },
-  {
-    "id": "E-Commerce Application",
-    "title": "E-Commerce Application",
-    "image": "project2.png",
-    "url":"https://github.com/DevokSoftware",
-    "technologies": ["Python", "React"] 
-  },
-  {
-    "id": "NBA API",
-    "title": "NBA API",
-    "image": "project3.png",
-    "url":"https://github.com/DevokSoftware",
-    "technologies": ["Ruby", "Angular", "Chakra UI"] 
+    "id": "chrome_extension_movie_recommendation",
+    "title": "Chrome Extension - Movie Recommendation",
+    "image": "project_movie_recommendation.png",
+    "url": "https://github.com/DevokSoftware/nelo-chrome-extension",
+    "technologies": ["Java", "Spring Boot", "React"]
   }
 ]

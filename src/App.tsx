@@ -29,7 +29,7 @@ export const App = () => {
   return (
     <>
       <ChakraProvider theme={theme}>
-        <NavigationBar />
+        {/* <NavigationBar /> */}
         <RouterProvider router={createBrowserRouter(routes)} />
       </ChakraProvider>
     </>
