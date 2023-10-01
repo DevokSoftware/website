@@ -1,0 +1,58 @@
+[
+  {
+    "title": "Full Stack Engineer",
+    "company": "Realworks",
+    "dates": "OCT 2022 - PRESENT",
+    "description": [
+      "Design and build Restful API's in a microservices architecture of a payment system.",
+      "Implementation of new features and contribution to the development of new and existing software products.",
+      "Technical analysis and time estimation of features to be developed."
+    ],
+    "technologies": ["Java", "Spring Boot", "React"]
+  },
+
+  {
+    "title": "Full Stack Engineer",
+    "company": "SIBS International",
+    "dates": "SEPT 2020 - SEPT 2022",
+    "description": [
+      "Design and build Restful API's in a microservices architecture of a payment system.",
+      "Implementation of new features and contribution to the development of new and existing software products.",
+      "Technical analysis and time estimation of features to be developed."
+    ],
+    "technologies": ["Java", "Spring Boot", "React"]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Accenture / NOS",
+    "dates": "APR 2019 - AUG 2020",
+    "description": [
+      "Design and build Restful API's in a microservices architecture of a payment system.",
+      "Implementation of new features and contribution to the development of new and existing software products.",
+      "Technical analysis and time estimation of features to be developed"
+    ],
+    "technologies": ["Java", "Spring Boot", "React"]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Fujitsu",
+    "dates": "NOV 2018 - MAR 2019",
+    "description": [
+      "Design and build Restful API's in a microservices architecture of a payment system.",
+      "Implementation of new features and contribution to the development of new and existing software products.",
+      "Technical analysis and time estimation of features to be developed"
+    ],
+    "technologies": ["Java", "Spring Boot", "React"]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Accenture / EDP",
+    "dates": "APR 2018 - OCT 2018",
+    "description": [
+      "Design and build Restful API's in a microservices architecture of a payment system.",
+      "Implementation of new features and contribution to the development of new and existing software products.",
+      "Technical analysis and time estimation of features to be developed"
+    ],
+    "technologies": ["Java", "Spring Boot", "React"]
+  }
+]

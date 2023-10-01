@@ -1,12 +1,11 @@
-import { SimpleGrid, Container, Text, Box } from "@chakra-ui/react";
-import projects from "../../blogs/projects.json";
-import { ExperienceCard } from "./ExperienceCard";
+import { SimpleGrid, Container, Text, Box, Center } from "@chakra-ui/react";
+import experience from "../../blogs/experience.json";
+import { ExperienceCard } from "../experience/ExperienceCard";
 
 export const ExperienceGrid = () => (
   <>
-    <ExperienceCard experience={null} />
-    <ExperienceCard experience={null} />
-    <ExperienceCard experience={null} />
-    <ExperienceCard experience={null} />
+    {experience.map((job) => (
+      <ExperienceCard job={job} />
+    ))}
   </>
 );

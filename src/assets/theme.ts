@@ -9,15 +9,7 @@ const theme = {
     // body: '"Open Sans", sans-serif',
   },
   styles: {
-    global: {
-      html: {
-        height: "100vh",
-      },
-      body: {
-        height: "100vh",
-        overflow: "hidden",
-      },
-    },
+    global: {},
   },
 
   config: {

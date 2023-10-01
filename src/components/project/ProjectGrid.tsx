@@ -4,9 +4,8 @@ import { ProjectCard } from "./ProjectCard";
 
 export const ProjectGrid = () => (
   <>
-    <ProjectCard project={null} />
-    <ProjectCard project={null} />
-    <ProjectCard project={null} />
-    <ProjectCard project={null} />
+    {projects.map((project) => (
+      <ProjectCard project={project} />
+    ))}
   </>
 );
