@@ -25,7 +25,7 @@ export const Homepage = () => {
             <Center h="100%">
               <VStack>
                 <Box textAlign="left">
-                  <Text as="b" fontSize="3xl">
+                  <Text as="b" fontSize="4xl">
                     Leonel Gonçalves
                   </Text>
                 </Box>
@@ -34,13 +34,13 @@ export const Homepage = () => {
                   Backend Developer
                 </Text>
 
-                <Box id="aboutme" marginTop={{ base: "1vh", md: "5vh" }}>
+                <Box
+                  id="aboutme"
+                  marginTop={{ base: "2vh !important", md: "5vh !important" }}
+                >
                   <AboutMe />
                 </Box>
-                <Box
-                  mt={{ base: "3vh !important", md: "10vh !important" }}
-                  id="test"
-                >
+                <Box mt={{ base: "3vh !important", md: "10vh !important" }}>
                   <HStack gap={2}>
                     <GitHubIcon />
                     <LinkedInIcon />
