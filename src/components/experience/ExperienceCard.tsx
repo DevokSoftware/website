@@ -15,6 +15,7 @@ import {
   HStack,
   Tag,
   TagLabel,
+  Container,
 } from "@chakra-ui/react";
 import { IJob } from "./Job";
 
@@ -30,6 +31,13 @@ export const ExperienceCard = ({ job }: ExperienceCardProps): JSX.Element => {
       size="sm"
       marginTop="1vh"
       borderRadius="2xl"
+      transition="transition: transform 0.3s, box-shadow 0.3s"
+      sx={{
+        ":hover": {
+          boxShadow: "0px 0px 14px 6px rgb(115 150 177 / 10%)",
+          transform: "scale(1.01)",
+        },
+      }}
     >
       <CardHeader>
         <Text
@@ -45,9 +53,9 @@ export const ExperienceCard = ({ job }: ExperienceCardProps): JSX.Element => {
           {job.company}
         </Heading>
       </CardHeader>
-      <CardBody>
+      <CardBody pt="0">
         <Box>
-          <Stack spacing="1">
+          <Stack spacing="1.5">
             {job.description.map((descriptionLine) => (
               <Text fontSize="xs" color="rgb(148 163 184)" textAlign="justify">
                 {descriptionLine}

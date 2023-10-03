@@ -1,0 +1,66 @@
+[
+  {
+    "title": "Full Stack Engineer",
+    "company": "Realworks",
+    "dates": "OCT 2022 - PRESENT",
+    "description": [
+      "Worked on a CRM for Real Estate agents, specifically on the module responsible for the new construction in the Netherlands.",
+      "Contributed to the migration of the module from scratch to newer technologies.",
+      "Joined the Security Chapter of the company.",
+      "Worked within an Agile scrum team, contributing to 100% continuous improvement and deployment (CICD)."
+    ],
+    "technologies": ["Java", "Spring Boot", "React", "MariaDB"]
+  },
+  {
+    "title": "Full Stack Engineer",
+    "company": "SIBS International",
+    "dates": "SEPT 2020 - SEPT 2022",
+    "description": [
+      "Implemented several new features in a set of different applications for the biggest company responsible for the payments sector in Portugal.",
+      "Integrated a new authorization server for the company, migrating and adapting the old one to Keycloak.",
+      "Migrated and built from scratch multiple frontend applications from old technologies to newer ones."
+    ],
+    "technologies": [
+      "Java",
+      "Jakarta EE",
+      "Wildfly",
+      "React",
+      "Angular",
+      "Keycloak",
+      "MySQL"
+    ]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Accenture / NOS",
+    "dates": "APR 2019 - AUG 2020",
+    "description": [
+      "Designed, estimated and implemented new features for an application used in the client's management for one of the biggest companies in the telecommunications and media sector in Portugal.",
+      "Collaborated everyday with multiple teams responsible for other parts of the application.",
+      "Presented all the implemented features to the client.",
+      "Created and continuously tested the application through integration tests."
+    ],
+    "technologies": ["Java", "Spring Boot", "React", "Oracle SQL"]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Fujitsu",
+    "dates": "NOV 2018 - MAR 2019",
+    "description": [
+      "Worked individually on designing an orchestrator to automate the software installation process when requested by internal teams, eliminating the need for humans to process validations and perform tasks.",
+      "Implemented and documented the whole database architecture together with all the scripts needed to communicate between third party APIs and install software in the users machines."
+    ],
+    "technologies": ["C#", "Scripting", "SQL Server"]
+  },
+  {
+    "title": "Software Engineer",
+    "company": "Accenture / EDP",
+    "dates": "APR 2018 - OCT 2018",
+    "description": [
+      "Joined a team responsible for the billing sector in a Customer Care & Billing application for the biggest energy company based in Portugal.",
+      "Resolved multiple issues reported by the client through a SLA contract.",
+      "Implemented new software enhancements in the application."
+    ],
+    "technologies": ["Java", "ServiceNow"]
+  }
+]
