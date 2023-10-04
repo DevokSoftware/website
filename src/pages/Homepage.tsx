@@ -4,7 +4,9 @@ import {
   Center,
   Container,
   HStack,
+  Heading,
   Icon,
+  ModalHeader,
   SimpleGrid,
   Stack,
   Text,
@@ -23,7 +25,7 @@ export const Homepage = () => {
         <SimpleGrid columns={{ base: 1, md: 2 }} gap={10}>
           <Box marginTop={{ base: "3vh", md: "10vh" }}>
             <Center h="100%">
-              <VStack>
+              <VStack position={{ base: "relative", md: "fixed" }}>
                 <Box textAlign="left">
                   <Text as="b" fontSize="4xl">
                     Leonel Gonçalves
@@ -50,16 +52,7 @@ export const Homepage = () => {
               </VStack>
             </Center>
           </Box>
-          <Box
-            marginTop={{ base: "0vh", md: "5vh" }}
-            overflowY="scroll"
-            h="90vh"
-            sx={{
-              "::-webkit-scrollbar": {
-                display: "none",
-              },
-            }}
-          >
+          <Box marginTop={{ base: "0vh", md: "5vh" }} h="90vh">
             <Box id="experience">
               <ExperienceGrid />
             </Box>
