@@ -30,6 +30,7 @@ export const ExperienceCard = ({ job }: ExperienceCardProps): JSX.Element => {
       variant="outline"
       size="sm"
       marginTop="1vh"
+      marginBottom="1vh"
       borderRadius="2xl"
       transition="transition: transform 0.3s, box-shadow 0.3s"
       sx={{

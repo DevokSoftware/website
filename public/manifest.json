@@ -1,9 +1,15 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
-
+  "name": "Leonel Gonçalves | software engineer",
+  "short_name": "Leonel Gonçalves",
   "start_url": ".",
   "display": "standalone",
   "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "72x72"
+    }
+  ]
 }

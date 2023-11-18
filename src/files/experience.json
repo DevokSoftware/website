@@ -4,10 +4,9 @@
     "company": "Realworks",
     "dates": "OCT 2022 - PRESENT",
     "description": [
-      "Worked on a CRM for Real Estate agents, specifically on the module responsible for the new construction in the Netherlands.",
-      "Contributed to the migration of the module from scratch to newer technologies.",
-      "Joined the Security Chapter of the company.",
-      "Worked within an Agile scrum team, contributing to 100% continuous improvement and deployment (CICD)."
+      "Worked on a CRM for real estate agents, specifically in the new constructions sector, within an Agile scrum team, contributing to 100% continuous improvement and deployment.",
+      "Contributed to the complete migration of the product to newer technologies.",
+      "Joined the Security Chapter of the company."
     ],
     "technologies": ["Java", "Spring Boot", "React", "MariaDB"]
   },
@@ -16,9 +15,9 @@
     "company": "SIBS International",
     "dates": "SEPT 2020 - SEPT 2022",
     "description": [
-      "Implemented several new features in a set of different applications for the biggest company responsible for the payments sector in Portugal.",
-      "Integrated a new authorization server for the company, migrating and adapting the old one to Keycloak.",
-      "Migrated and built from scratch multiple frontend applications from old technologies to newer ones."
+      "Designed and implemented several new features in a set of different applications for the biggest company responsible for the payments sector in Portugal.",
+      "Contributed to the complete migration of the the old authorization service to Keycloak.",
+      "Built multiple frontend applications from old technologies to newer ones."
     ],
     "technologies": [
       "Java",
@@ -35,10 +34,8 @@
     "company": "Accenture / NOS",
     "dates": "APR 2019 - AUG 2020",
     "description": [
-      "Designed, estimated and implemented new features for an application used in the client's management for one of the biggest companies in the telecommunications and media sector in Portugal.",
-      "Collaborated everyday with multiple teams responsible for other parts of the application.",
-      "Presented all the implemented features to the client.",
-      "Created and continuously tested the application through integration tests."
+      "Designed and implemented multiple features in a CRM for one of the biggest companies in the telecommunications and broadcasting sector in Portugal.",
+      "Conducted multiple presentations to the client."
     ],
     "technologies": ["Java", "Spring Boot", "React", "Oracle SQL"]
   },
@@ -59,7 +56,7 @@
     "description": [
       "Joined a team responsible for the billing sector in a Customer Care & Billing application for the biggest energy company based in Portugal.",
       "Resolved multiple issues reported by the client through a SLA contract.",
-      "Implemented new software enhancements in the application."
+      "Implemented several software enhancements in the application."
     ],
     "technologies": ["Java", "ServiceNow"]
   }

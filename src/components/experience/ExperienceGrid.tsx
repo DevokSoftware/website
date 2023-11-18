@@ -3,7 +3,7 @@ import experience from "../../files/experience.json";
 import { ExperienceCard } from "../experience/ExperienceCard";
 
 export const ExperienceGrid = () => (
-  <Container>
+  <Container mb="5vh">
     {experience.map((job) => (
       <ExperienceCard job={job} />
     ))}

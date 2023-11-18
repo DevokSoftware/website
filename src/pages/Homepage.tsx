@@ -31,11 +31,9 @@ export const Homepage = () => {
                     Leonel Gonçalves
                   </Text>
                 </Box>
-
                 <Text fontSize="12px" textTransform="uppercase" as="b">
                   Backend Developer
                 </Text>
-
                 <Box
                   id="aboutme"
                   marginTop={{ base: "2vh !important", md: "5vh !important" }}
@@ -44,9 +42,9 @@ export const Homepage = () => {
                 </Box>
                 <Box mt={{ base: "3vh !important", md: "10vh !important" }}>
                   <HStack gap={2}>
-                    <GitHubIcon />
-                    <LinkedInIcon />
-                    <LeetCodeIcon />
+                    <GitHubIcon color="white" />
+                    <LinkedInIcon color="white" />
+                    <LeetCodeIcon color="white" />
                   </HStack>
                 </Box>
               </VStack>
