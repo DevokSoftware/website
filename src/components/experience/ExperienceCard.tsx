@@ -26,6 +26,7 @@ interface ExperienceCardProps {
 export const ExperienceCard = ({ job }: ExperienceCardProps): JSX.Element => {
   return (
     <Card
+      cursor="pointer"
       overflow="hidden"
       variant="outline"
       size="sm"

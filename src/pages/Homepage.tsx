@@ -9,6 +9,12 @@ import {
   ModalHeader,
   SimpleGrid,
   Stack,
+  Tab,
+  TabIndicator,
+  TabList,
+  TabPanel,
+  TabPanels,
+  Tabs,
   Text,
   VStack,
 } from "@chakra-ui/react";
@@ -17,6 +23,7 @@ import { AboutMe } from "../components/aboutme/AboutMe";
 import GitHubIcon from "../shared/GitHubIcon";
 import LinkedInIcon from "../shared/LinkedInIcon";
 import LeetCodeIcon from "../shared/LeetCode";
+import { ProjectGrid } from "../components/project/ProjectGrid";
 
 export const Homepage = () => {
   return (
@@ -51,12 +58,48 @@ export const Homepage = () => {
             </Center>
           </Box>
           <Box marginTop={{ base: "0vh", md: "5vh" }} h="90vh">
-            <Box id="experience">
-              <ExperienceGrid />
-            </Box>
-            {/* <Box id="projects" marginTop={{ base: "3vh", md: "5vh" }}>
-              <ProjectGrid />
-            </Box> */}
+            <Tabs position="relative" variant="unstyled">
+              <Center>
+                <TabList>
+                  <Tab
+                    fontSize="12px"
+                    textTransform="uppercase"
+                    as="b"
+                    color="rgb(148 163 184)"
+                    cursor="pointer"
+                  >
+                    Experience
+                  </Tab>
+                  <Tab
+                    fontSize="12px"
+                    textTransform="uppercase"
+                    as="b"
+                    color="rgb(148 163 184)"
+                    cursor="pointer"
+                  >
+                    Projects
+                  </Tab>
+                </TabList>
+              </Center>
+              <TabIndicator
+                mt="-1.5px"
+                height="2px"
+                bg="cyan.100"
+                borderRadius="1px"
+              />
+              <TabPanels>
+                <TabPanel>
+                  <Box id="experience">
+                    <ExperienceGrid />
+                  </Box>
+                </TabPanel>
+                <TabPanel>
+                  <Box id="projects">
+                    <ProjectGrid />
+                  </Box>
+                </TabPanel>
+              </TabPanels>
+            </Tabs>
           </Box>
         </SimpleGrid>
       </Container>

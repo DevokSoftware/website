@@ -1,9 +1,51 @@
 [
   {
+    "id": "giggz",
+    "title": "Giggz",
+    "description": [
+      "This innovative platform is designed for comedy enthusiasts, offering a seamless experience to discover both comedy events and talented comedians.",
+      "With Giggz, users can easily explore a variety of hilarious performances and stay in the loop by following their favorite comedians or preferred event locations.",
+      "What sets Giggz apart is its unique notification feature, ensuring users never miss out on the latest laughs."
+    ],
+    "image": "project_movie_recommendation.png",
+    "url": "https://github.com/DevokSoftware/giggz",
+    "technologies": ["Java", "Spring Boot", "React", "REST APIs"],
+    "year": "2023 - present"
+  },
+  {
+    "id": "bola_ao_ar",
+    "title": "Draft NBA - Bola ao Ar",
+    "description": [
+      "This platform was built for the portuguese podcast named 'Bola ao Ar'.",
+      "The forecasts made by the hosts of the podcast were transformed into a captivating league, allowing their fans to track and analyze the hosts' predictions throughout the NBA season based of the performances of each NBA team."
+    ],
+    "image": "project_movie_recommendation.png",
+    "url": "https://draft-bola-ao-ar.onrender.com/",
+    "technologies": ["React", "Chakra UI", "Node.js", "REST APIs"],
+    "year": "2022 - present"
+  },
+  {
     "id": "chrome_extension_movie_recommendation",
-    "title": "Chrome Extension - Movie Recommendation",
+    "title": "Movies Recommendation",
+    "description": [
+      "Chrome extension that provides a curated selection of movie recommendations based on the users' past watches. Powered by a sophisticated engine, the  system analyzes various factors such as the movie's author, genres, director, actors, and release date to deliver personalized suggestions.",
+      "Whether the user is a fan of a specific director, love certain actors, or have a penchant for particular genres, our recommendation engine ensures that each movie suggestion aligns perfectly with its preferences."
+    ],
     "image": "project_movie_recommendation.png",
     "url": "https://github.com/DevokSoftware/nelo-chrome-extension",
-    "technologies": ["Java", "Spring Boot", "React"]
+    "technologies": ["Java", "Spring Boot", "React", "Chakra UI", "REST APIs"],
+    "year": "2022"
+  },
+  {
+    "id": "whats_trending",
+    "title": "What's trending?",
+    "description": [
+      "This platform not only showcases the current trending topics on Twitter but also provides a unique twist by highlighting the most popular tweets related to those trends.",
+      "In addition to showcasing current Twitter trends and popular tweets, articles from online newspapers are being fetched for each trending topic, allowing users to access official sources along with social media perspectives."
+    ],
+    "image": "project_movie_recommendation.png",
+    "url": "https://github.com/DevokSoftware/whatstrending",
+    "technologies": ["Java", "Spring Boot", "Angular", "REST APIs"],
+    "year": "2021"
   }
 ]

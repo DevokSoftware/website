@@ -12,43 +12,65 @@ import {
   Text,
   Stack,
   Box,
+  HStack,
+  Tag,
+  TagLabel,
 } from "@chakra-ui/react";
 import { IProject } from "./Project";
 
 interface ProjectCardProps {
-  project: IProject | null;
+  project: IProject;
 }
 
 export const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
   return (
     <Card
+      cursor="pointer"
       overflow="hidden"
-      direction={{ base: "column", sm: "row" }}
       variant="outline"
       size="sm"
       marginTop="1vh"
+      marginBottom="1vh"
+      borderRadius="2xl"
+      transition="transition: transform 0.3s, box-shadow 0.3s"
+      sx={{
+        ":hover": {
+          boxShadow: "0px 0px 14px 6px rgb(115 150 177 / 10%)",
+          transform: "scale(1.01)",
+        },
+      }}
     >
       <CardHeader>
-        <Text fontSize="10px" textTransform="uppercase" as="b">
-          DEC 2015 - JULY 2016
+        <Text
+          fontSize="10px"
+          textTransform="uppercase"
+          as="b"
+          color="rgb(148 163 184)"
+        >
+          {project.year}
         </Text>
+        <Heading size="sm">{project?.title}</Heading>
       </CardHeader>
-      <CardBody>
-        <Heading size="sm">Full Stack Engineer</Heading>
-        <Heading size="xs" color="rgb(148 163 184)">
-          NOS
-        </Heading>
-        <Stack spacing="2">
-          <Box>
-            <Text pt="2" fontSize="xs" color="rgb(148 163 184)">
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident, sunt in culpa qui officia deserunt mollit
-              anim id est laborum.
-            </Text>
-          </Box>
-        </Stack>
+      <CardBody pt="0">
+        <Box>
+          <Stack spacing="1.5">
+            {project.description.map((descriptionLine) => (
+              <Text fontSize="xs" color="rgb(148 163 184)" textAlign="justify">
+                {descriptionLine}
+              </Text>
+            ))}
+          </Stack>
+        </Box>
       </CardBody>
+      <CardFooter>
+        <HStack spacing={2}>
+          {project.technologies.map((technology) => (
+            <Tag size="sm" variant="subtle" colorScheme="cyan">
+              <TagLabel>{technology}</TagLabel>
+            </Tag>
+          ))}
+        </HStack>
+      </CardFooter>
     </Card>
   );
 };
