@@ -49,7 +49,11 @@ export const ProjectCard = ({ project }: ProjectCardProps): JSX.Element => {
         >
           {project.year}
         </Text>
-        <Heading size="sm">{project?.title}</Heading>
+        <Heading size="sm">
+          <Link href={project.url} isExternal>
+            {project.title}
+          </Link>
+        </Heading>
       </CardHeader>
       <CardBody pt="0">
         <Box>
