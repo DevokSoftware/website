@@ -4,8 +4,8 @@
     "company": "Realworks",
     "dates": "OCT 2022 - PRESENT",
     "description": [
-      "Worked on a CRM for real estate agents, specifically in the new constructions sector, within an Agile scrum team, contributing to 100% continuous improvement and deployment.",
-      "Contributed to the complete migration of the product to newer technologies.",
+      "Collaborated within an Agile Scrum team to develop a CRM  solution tailored for real estate agents, specializing in the new constructions sector.",
+      "Involved in the full-scale migration of the product, encompassing both Frontend and Backend components, to state-of-the-art technologies, optimizing performance and user experience.",
       "Joined the Security Chapter of the company."
     ],
     "technologies": ["Java", "Spring Boot", "React", "MariaDB"]
@@ -15,9 +15,9 @@
     "company": "SIBS International",
     "dates": "SEPT 2020 - SEPT 2022",
     "description": [
-      "Designed and implemented several new features in a set of different applications for the biggest company responsible for the payments sector in Portugal.",
-      "Contributed to the complete migration of the the old authorization service to Keycloak.",
-      "Built multiple frontend applications from old technologies to newer ones."
+      "Executed the successful implementation of multiple features across diverse applications for Portugal's leading payment sector entity.",
+      "Played a pivotal role in orchestrating themigration of the antiquated authorization service to Keycloak, ensuring enhanced security.",
+      "Involved in the migration of legacy products to cutting-edge technologies."
     ],
     "technologies": [
       "Java",
@@ -34,8 +34,9 @@
     "company": "Accenture / NOS",
     "dates": "APR 2019 - AUG 2020",
     "description": [
-      "Designed and implemented multiple features in a CRM for one of the biggest companies in the telecommunications and broadcasting sector in Portugal.",
-      "Conducted multiple presentations to the client."
+      "Led end-to-end processes, including design, estimation, implementation, testing, and ongoing maintenance, for novel features in a CRM application.",
+      "Ensured robust code quality and functionality through the meticulous development and execution of unit and integration tests.",
+      "Conducted functional and technical presentations to showcase the developed features, ensuring a complete understanding across teams and stakeholders."
     ],
     "technologies": ["Java", "Spring Boot", "React", "Oracle SQL"]
   },
@@ -44,8 +45,8 @@
     "company": "Fujitsu",
     "dates": "NOV 2018 - MAR 2019",
     "description": [
-      "Worked individually on designing an orchestrator to automate the software installation process when requested by internal teams, eliminating the need for humans to process validations and perform tasks.",
-      "Implemented and documented the whole database architecture together with all the scripts needed to communicate between third party APIs and install software in the users machines."
+      "Independently designed and implemented an orchestrator to automate software installation processes from internal team, eliminating the need for manual validation and task execution.",
+      "Executed the complete implementation and documentation of the database architecture and entire codebase, ensuring a robust and well-documented foundation for efficient system operation and maintenance."
     ],
     "technologies": ["C#", "Scripting", "SQL Server"]
   },
@@ -54,9 +55,8 @@
     "company": "Accenture / EDP",
     "dates": "APR 2018 - OCT 2018",
     "description": [
-      "Joined a team responsible for the billing sector in a Customer Care & Billing application for the biggest energy company based in Portugal.",
-      "Resolved multiple issues reported by the client through a SLA contract.",
-      "Implemented several software enhancements in the application."
+      "Played a key role in implementing multiple software enhancements  within a Customer Care & Billing application for the billing sector.",
+      "Effectively addressed and resolved various client-reported issues in adherence to SLA contracts"
     ],
     "technologies": ["Java", "ServiceNow"]
   }
