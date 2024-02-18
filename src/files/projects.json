@@ -8,7 +8,7 @@
       "What sets Giggz apart is its unique notification feature, ensuring users never miss out on the latest laughs."
     ],
     "image": "project_movie_recommendation.png",
-    "url": "https://github.com/DevokSoftware/giggz",
+    "url": "https://giggz.onrender.com",
     "technologies": ["Java", "Spring Boot", "React", "REST APIs"],
     "year": "2023 - present"
   },
