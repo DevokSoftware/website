@@ -4,20 +4,29 @@
     "company": "Realworks",
     "dates": "OCT 2022 - PRESENT",
     "description": [
-      "Collaborated within an Agile Scrum team to develop a CRM  solution tailored for real estate agents, specializing in the new constructions sector.",
-      "Involved in the full-scale migration of the product, encompassing both Frontend and Backend components, to state-of-the-art technologies, optimizing performance and user experience.",
-      "Joined the Security Chapter of the company."
+      "Involved in a full-scale migration from a legacy monolith to a Spring Boot + React-based microservices architecture.",
+      "Designed and implemented REST and GraphQL APIs to support frontend UIs and inter-service communication within a modular architecture.",
+      "Implemented Keycloak integration with Spring Security to handle authentication and role-based access control in a secure and centralized manner.",
+      "Developed multiple Grafana dashboards tailored to different features, enabling the dev team to detect issues faster and providing the Product Owner with visibility into new features and user behavior metrics."
     ],
-    "technologies": ["Java", "Spring Boot", "React", "MariaDB"]
+    "technologies": [
+      "Java",
+      "Spring Boot",
+      "React",
+      "MariaDB",
+      "Docker",
+      "K8s",
+      "Grafana"
+    ]
   },
   {
     "title": "Full Stack Engineer",
     "company": "SIBS International",
     "dates": "SEPT 2020 - SEPT 2022",
     "description": [
-      "Executed the successful implementation of multiple features across diverse applications for Portugal's leading payment sector entity.",
-      "Played a pivotal role in orchestrating themigration of the antiquated authorization service to Keycloak, ensuring enhanced security.",
-      "Involved in the migration of legacy products to cutting-edge technologies."
+      "Developed features for an online payment gateway using Java and Spring Boot, processing thousands of transactions per minute.",
+      "Led the migration of the legacy authorization service to Keycloak, enhancing security and access control.",
+      "Fully modernized a Card Management app for banks, migrating from AngularJS and J2EE to Angular and Spring Boot."
     ],
     "technologies": [
       "Java",
@@ -34,9 +43,9 @@
     "company": "Accenture / NOS",
     "dates": "APR 2019 - AUG 2020",
     "description": [
-      "Led end-to-end processes, including design, estimation, implementation, testing, and ongoing maintenance, for novel features in a CRM application.",
-      "Ensured robust code quality and functionality through the meticulous development and execution of unit and integration tests.",
-      "Conducted functional and technical presentations to showcase the developed features, ensuring a complete understanding across teams and stakeholders."
+      "Led the full development lifecycle of new features in a CRM application built in Spring MVC — from design and estimation to implementation, testing, and maintenance.",
+      "Ensured high code quality with comprehensive unit and integration tests.",
+      "Delivered technical demos and functional presentations to align teams and stakeholders."
     ],
     "technologies": ["Java", "Spring Boot", "React", "Oracle SQL"]
   },
@@ -45,8 +54,8 @@
     "company": "Fujitsu",
     "dates": "NOV 2018 - MAR 2019",
     "description": [
-      "Independently designed and implemented an orchestrator to automate software installation processes from internal team, eliminating the need for manual validation and task execution.",
-      "Executed the complete implementation and documentation of the database architecture and entire codebase, ensuring a robust and well-documented foundation for efficient system operation and maintenance."
+      "Independently designed and built an orchestrator using C# scripts to automate internal software installation processes, consuming APIs for validation and task execution.",
+      "Delivered a fully implemented and documented codebase and database schema, ensuring long-term maintainability and smooth system operations."
     ],
     "technologies": ["C#", "Scripting", "SQL Server"]
   },
