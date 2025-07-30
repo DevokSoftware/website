@@ -4,9 +4,9 @@
     "company": "Realworks",
     "dates": "OCT 2022 - PRESENT",
     "description": [
-      "Involved in a full-scale migration from a legacy monolith to a Spring Boot + React-based microservices architecture.",
-      "Designed and implemented REST and GraphQL APIs to support frontend UIs and inter-service communication within a modular architecture.",
-      "Implemented Keycloak integration with Spring Security to handle authentication and role-based access control in a secure and centralized manner.",
+      "Involved in a full-scale migration from a legacy monolith to a Spring Boot + React microservices architecture, improving team autonomy and accelerating feature delivery and scalability.",
+      "Built and optimized REST and GraphQL APIs for frontend integration, reducing response times by 30–50%.",
+      "Consistently delivered high-impact features across multiple large-scale epics, while proactively improving application stability by resolving production issues and reducing incident rates by 40-60%.",
       "Developed multiple Grafana dashboards tailored to different features, enabling the dev team to detect issues faster and providing the Product Owner with visibility into new features and user behavior metrics."
     ],
     "technologies": [
