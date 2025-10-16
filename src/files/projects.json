@@ -7,7 +7,7 @@
       "With Giggz, users can easily explore a variety of hilarious performances and stay in the loop by following their favorite comedians or preferred event locations.",
       "What sets Giggz apart is its unique notification feature, ensuring users never miss out on the latest laughs."
     ],
-    "image": "project_movie_recommendation.png",
+    "image": "giggz.png",
     "url": "https://giggz.onrender.com",
     "technologies": ["Java", "Spring Boot", "React", "REST APIs"],
     "year": "2023 - present"
@@ -19,7 +19,7 @@
       "This platform was built for the portuguese podcast named 'Bola ao Ar'.",
       "The forecasts made by the hosts of the podcast were transformed into a captivating league, allowing their fans to track and analyze the hosts' predictions throughout the NBA season based of the performances of each NBA team."
     ],
-    "image": "project_movie_recommendation.png",
+    "image": "nba.png",
     "url": "https://draft-bola-ao-ar.onrender.com/",
     "technologies": ["React", "Chakra UI", "Node.js", "REST APIs"],
     "year": "2022 - present"
@@ -43,7 +43,7 @@
       "This platform not only showcases the current trending topics on Twitter but also provides a unique twist by highlighting the most popular tweets related to those trends.",
       "In addition to showcasing current Twitter trends and popular tweets, articles from online newspapers are being fetched for each trending topic, allowing users to access official sources along with social media perspectives."
     ],
-    "image": "project_movie_recommendation.png",
+    "image": "twitter.png",
     "url": "https://github.com/DevokSoftware/whatstrending",
     "technologies": ["Java", "Spring Boot", "Angular", "REST APIs"],
     "year": "2021"

@@ -15,7 +15,7 @@ import {
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
 const Links = [
   { label: "Home", to: "" },
-  { label: "Blog", to: "blog" },
+  // { label: "Blog", to: "blog" },
   { label: "Projects", to: "projects" },
 ];
 

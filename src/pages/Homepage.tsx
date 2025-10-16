@@ -23,7 +23,7 @@ import { AboutMe } from "../components/aboutme/AboutMe";
 import GitHubIcon from "../shared/GitHubIcon";
 import LinkedInIcon from "../shared/LinkedInIcon";
 import LeetCodeIcon from "../shared/LeetCode";
-import { ProjectGrid } from "../components/project/ProjectGrid";
+import { ProjectGridSingle } from "../components/project/ProjectGrid";
 
 export const Homepage = () => {
   return (
@@ -95,7 +95,7 @@ export const Homepage = () => {
                 </TabPanel>
                 <TabPanel>
                   <Box id="projects">
-                    <ProjectGrid />
+                    <ProjectGridSingle />
                   </Box>
                 </TabPanel>
               </TabPanels>
