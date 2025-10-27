@@ -12,15 +12,18 @@ import {
   useColorModeValue,
   Icon,
 } from "@chakra-ui/react";
+import { Link as RouterLink } from "react-router-dom";
 import { ColorModeSwitcher } from "./ColorModeSwitcher";
 const Links = [
-  { label: "Home", to: "" },
+  { label: "Home", to: "/" },
   // { label: "Blog", to: "blog" },
-  { label: "Projects", to: "projects" },
+  { label: "Projects", to: "/projects" },
 ];
 
 const NavLink = ({ link }: { link: { label: string; to: string } }) => (
   <Link
+    as={RouterLink}
+    to={link.to}
     px={2}
     py={1}
     rounded={"md"}
@@ -28,7 +31,6 @@ const NavLink = ({ link }: { link: { label: string; to: string } }) => (
       textDecoration: "none",
       bg: useColorModeValue("gray.200", "gray.700"),
     }}
-    href={"/" + link.to}
   >
     {link.label}
   </Link>
